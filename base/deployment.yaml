@@ -23,7 +23,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
+      - image: httpd:2.4.63-bookworm
         name: vote
         imagePullPolicy: Always
         resources: 
